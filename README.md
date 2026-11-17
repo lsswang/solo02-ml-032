@@ -1,0 +1,2 @@
+# Weak instance supervision and visible masks
+Python 3.11 with NumPy/SciPy. Run `python demo.py`. The existing fully labeled independent matching and disjoint decoder run normally; the task defines the requested extension. Object slots are indexed by their input position. Class 0 is no-object. Mask value -1 means unobserved in the new annotation convention. `front_edges` contains target-index pairs, not slot indices. No image backbone or remote model is required: logits are the differentiable model boundary.
